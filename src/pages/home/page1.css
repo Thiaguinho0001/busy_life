@@ -1,0 +1,258 @@
+*{
+margin: 0px;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url('../../assets/images/fundo_pr.jpg');
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+}
+
+header > h1{
+font-size: 75px;
+font-family: 'goblin';
+align-self: center;
+margin-top: 30px;
+}
+
+header > h1 > img{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    margin-top: 30px;
+    position: relative;
+    top: 40px;
+    right: 40px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 100px;
+}
+
+nav > a{
+font-size: 25px;
+font-family: 'goblin';
+text-decoration: none;
+margin: 35px;
+align-items: center;
+color: black;
+}
+
+nav > a:hover{
+    transition: 0,5s;
+    color: #e1bf14;
+    font-size: 28px;
+    }
+
+nav > a > img{
+height: 20px;
+width: 20px;
+align-self: center;
+margin-right: 80px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: 40px;
+    margin-top: 80px;
+    
+ 
+}
+article > h2{
+    font-family: 'goblin';
+    font-size: 16px;
+    font-weight: 100;
+}
+
+article > h3{
+    font-family: 'goblin';
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+article > h4{
+    font-family: 'goblin';
+    font-size: 16px;
+    font-weight: 100;
+}
+
+article > img{
+height: 250px;
+width: 200px;
+
+
+}
+
+header > div{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+header > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+header > div > div > div{
+    align-self: center;
+    margin: 50px;
+    
+    
+}
+
+header > div > div > div > a{
+    font-family: 'goblin';
+    font-size:16px ;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    width: 40vh;
+}
+
+header > div > div > div > a:hover{
+    transition: 0,5s;
+    color: #e9cd19;
+    
+}
+
+header > div > div > div > h4{
+    font-family: 'goblin';
+    font-size:16px ;
+    font-weight: 100;
+}
+
+.bb{
+align-self: center;
+margin-top: 340px;
+
+}
+
+.bb > a{
+    font-family: 'goblin';
+    font-size:16px ;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    background-color: gray;
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+
+
+}
+
+.bb > a:hover{
+    transition: 0,5s;
+    color: #ffffff;
+
+
+}
+
+footer{
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.e{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.e > h1{
+font-family: 'goblin';
+color: #ffffff;
+}
+
+.e > a{
+    color: #ffffff;
+    font-family: 'goblin';
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.e > a:hover{
+    transition: 0,5s;
+    color: #e9cd19;
+}
+
+.m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m > h1{
+    font-family: 'goblin';
+    font-size: 24px;
+    color: #ffffff;
+    
+}
+
+.m > img{
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+}
+
+.dc{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.dc > h1{
+    font-family: 'goblin';
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.dc > p{
+    color: #ffffff;
+    
+}
+
+.dc > p > svg{
+    height: 40px;
+    width: 40px;
+}
+
+.db{
+    display: flex;
+    flex-direction: column;
+}
+
+.db > h1{
+    font-family: 'goblin';
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.db > p > img{
+    margin: 5px;
+    background-color: #ffffff;
+    height: 30px;
+    width:60px ;
+}

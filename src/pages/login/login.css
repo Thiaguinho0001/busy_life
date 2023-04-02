@@ -1,0 +1,119 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../assets/images/back_img.jpg');
+}
+
+h2{margin-left: 13vh;
+font-size: 40px;
+color: aliceblue;
+font-family: 'goblin';
+
+
+
+
+
+}
+
+
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: rgba(238, 181, 37, 0.887);
+    height: 63vh;
+    width: 40vw;
+    margin-top: 20vh;
+    border-radius: 40px;
+    border-color: black;
+}
+
+div > label{
+
+align-self: center;
+
+font-family: 'goblin';
+border-radius: 40px;
+}
+
+
+input{
+    border-radius: 40px;
+    width: 40vh;
+height: 30px;
+
+}
+
+
+div > a{
+    width: 200px;
+    align-self: center;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'goblin';
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+        height: 4vh;
+        width: 10vw;
+        border-radius: 40px;
+        padding-top: 12px;
+        
+        
+    }
+
+
+    div > a:hover{
+        color: rgb(216, 216, 216);
+        transition: 0,5s;
+        font-size: 18px;
+    }
+
+
+
+    div > h3 > a{
+        text-decoration: none;
+        color: black;
+        font-family: 'goblin';
+        font-weight: 100;
+        
+    }
+
+    div > h3{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    div > h3 > a:hover{
+        transition: 0,5s;
+        color: #ffffff;
+        text-decoration: double;
+        font-size: 13px;
+
+    }
+
+
+    div > h4{
+        font-family: 'goblin';
+        font-size: 9px;
+        margin-top: 50px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    div > h4 > a:hover{
+        transition: 0,5s;
+        color: #ffffff;
+        text-decoration: double;
+        font-size: 12px;
+        
+    }
+
+    div > h4 > a{
+        text-decoration: none;
+        color:black ;
+    }

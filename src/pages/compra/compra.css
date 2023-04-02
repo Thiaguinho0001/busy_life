@@ -1,0 +1,45 @@
+header div img{
+    height: 500px;
+    width: 400px;
+}
+
+header div{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+header div div{
+
+    align-self: center !important;
+    width: 400px !important;
+}
+
+.comprar{
+    margin-top: 20px;
+    background-color: #e9cd19;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    height: 30px;
+    width: 150px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.comprar:hover{
+    background-color: black;
+    transition: 0,6s;
+    color: azure;
+}
+
+header div h1{
+    margin-top: 250px;
+}
+
+header{
+    height: 120vh !important;
+}
